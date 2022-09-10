@@ -28,7 +28,8 @@ public class BaseSelenium {
 		
 		BufferedReader br= new BufferedReader(fr);
 		
-		String st;
+		String st;	
+		
 		
 		int i=0;
 		while((st=br.readLine())!=null) {
