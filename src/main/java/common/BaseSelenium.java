@@ -15,6 +15,7 @@ public class BaseSelenium {
 	public static String path= "C:\\Users\\Pooja\\SeleniumClass\\Selenium-automation-1-sept\\src\\main\\resources\\testdata.txt";
 	
 	@DataProvider(parallel = true, name="CSVDataProvider")
+	
 	public String[][] getLoginData() throws IOException {
 		
 		int noOfRows= getNumberOfRows();
