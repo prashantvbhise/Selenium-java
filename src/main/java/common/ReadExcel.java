@@ -22,7 +22,9 @@ public class ReadExcel {
 	
 	public static void main(String[] args) throws IOException {
 		int noOfRows= getNumberOfRows();
+		
 		int noOfColoumn= getNumberOfColoumn();
+		
 		String[][] loginData= new String[noOfRows][noOfColoumn];
 		file = new File(path);
 		fis= new FileInputStream (file);
