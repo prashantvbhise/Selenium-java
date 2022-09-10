@@ -14,7 +14,9 @@ public class Frames {
 		System.setProperty("webdriver.chrome.driver", "C:\\Selenium\\chromedriver.exe");
 		
 		WebDriver driver = new ChromeDriver();
+		
 		driver.get("https://the-internet.herokuapp.com/nested_frames");
+		
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 		WebElement frame= driver.findElement(By.name("frame-top"));
 		driver.switchTo().frame(frame);
