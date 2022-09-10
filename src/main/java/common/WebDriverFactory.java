@@ -9,6 +9,7 @@ public class WebDriverFactory {
 	public static WebDriver getDriver() {
 		
 		return threadLocalStorage.get();
+		//Added
 			
 	}
 	
