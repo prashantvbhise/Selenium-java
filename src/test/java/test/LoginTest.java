@@ -3,12 +3,11 @@ package test;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
-import common.BaseSelenium;
 import common.BaseSelenium1;
 import common.IInvokedMethodListenerImpl;
 import pages.LoginPage;
 
-//@Listeners(IInvokedMethodListenerImpl.class)
+@Listeners(IInvokedMethodListenerImpl.class)
 public class LoginTest extends BaseSelenium1{
 	
 	@Test (dataProvider="ExcelDataProvider")
