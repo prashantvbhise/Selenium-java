@@ -39,7 +39,7 @@ public class IInvokedMethodListenerImpl implements IInvokedMethodListener {
 		
 		FileInputStream objfile = null;
 		try {
-			objfile = new FileInputStream("C:\\Users\\Pooja\\SeleniumClass\\Selenium-automation-1-sept\\src\\main\\resources\\property.properties");
+			objfile = new FileInputStream("C:\\Users\\Pooja\\ALL_GIT_REPO\\Selenium-java\\src\\test\\resources\\property.properties");
 		} catch (FileNotFoundException e1) {
 			// TODO Auto-generated catch block
 			e1.printStackTrace();
